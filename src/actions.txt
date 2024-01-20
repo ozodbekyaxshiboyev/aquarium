@@ -1,0 +1,18 @@
+1. Baliq hayoti davomidagi harakatlar:
+- avvalo bir nechta baliqlar to`giladi(4-6), yoshi(12-20)
+- baliqlar berilgan yosh miqdoricha harakat qiladi(yashaydi)
+- baliq qaysidir tomonga harakat qiladi(X,Y uzgaradi)
+- harakat qilgan nuqtada baliq bor yuqlii tekshiriladi,
+agar bo`lsa, u baliq yoshi va jinsi, ko`payisga aktivligi tekshiriladi,
+agar to`g`ri kelsa yangi baliq tog`iladi
+- baliq umri tugasa akvariumdan chiqib ketadi
+
+GUI qo`shaman terminal bilan, bitta consoleda o`ynaydigan qilib
+
+--faqat erkak baliqlar meetni qidirishi qanchalik to`gri, hozirgi holatda yuq chunki erkak baliq sleep qilyotganda urg`ochi baliq kelishi mumkin
+
+Muammolar:
+meet qilish uchun ushbu nuqtadagi baliqlarni qidirayotganda hamma baliqni to`xtatib turish kerak(static method qilsa bo`ladiku)
+men tableni ekranga chiqarguncha fishlar urnini uzgartirib qo`yyapti,
+ chunki men bir nechat threadni start berdim va keyingi fishga start berib
+ jadvalni chiqarishni boshlaganimdagi fish poinlari ekranga chiqarib bo`lguncha uzgarib ketyapti

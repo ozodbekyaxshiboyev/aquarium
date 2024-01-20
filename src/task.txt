@@ -1,0 +1,1 @@
+resuorce1 va resource2 ni deadlockga tushmasligi uchun wait notify qo`shib uzgartirish
